@@ -10,7 +10,7 @@ pipeline {
         stage('Build'){
             steps {
                 git branch: 'python', url: 'https://github.com/Aditi15091999/Sample-project.git'
-                bat 'python list_aditi.py'
+                powershell 'python list_aditi.py'
             }
         }
         stage('Test'){
