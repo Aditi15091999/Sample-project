@@ -7,4 +7,4 @@ print('The reversed list is',List1)
 
 list2=[10,130,140,40,20,5]
 list2.sort()
-print('the sorted list is',list2)
+printf('the sorted list is',list2)
